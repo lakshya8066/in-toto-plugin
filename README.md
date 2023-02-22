@@ -8,7 +8,7 @@ As of now, this is still WIP, although the core features are implemented.
 
 ## Installation
 
-You can compile the plugin by running `mvn package` (note, make sure
+You can compile the plugin by running `mvn clean && mvn compile && mvn package` (note, make sure
 you have the [in-toto-java jar available](https://github.com/controlplaneio/in-toto-java))
 and manually install the `.hpi` file in your Jenkins installation.
 
